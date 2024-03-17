@@ -7,21 +7,48 @@ body {
 }
 
 #vote {
-    padding: 10% 0%;
-    background-image: linear-gradient(#2e2e2e, #171717);
+    padding: 20px 20px;
+    background-image: linear-gradient(#2e2e2e, #000000);
 }
 
 .button {
     outline: 5px solid;
-    padding: 1% 1%;
+    padding: 10px 10px;
     width: auto;
     color: #FFFFFF;
 }
 
 .button:hover {
-    color: gold;
+    color: #E5B80B;
 }
 
 #about {
-    margin: 5% 15%;
+    padding: 20px 20px;
 }
+
+#categories {
+    background-image: linear-gradient(#000000, #2e2e2e);
+    padding: 20px 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.categorie {
+    padding: 30px 20px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #E5B80B;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  h1, h2 {
+    margin-bottom: 50px;
+  }
